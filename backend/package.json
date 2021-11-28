@@ -1,0 +1,37 @@
+{
+  "name": "sample-market-app",
+  "version": "1.0.0",
+  "description": "nodejs api with express, sequelize, postgresql",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokhancann/sample-market-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "postgresql",
+    "restapi"
+  ],
+  "author": "gokhancann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gokhancann/sample-market-app/issues"
+  },
+  "homepage": "https://github.com/gokhancann/sample-market-app#readme",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "expess": "0.0.1-security",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}

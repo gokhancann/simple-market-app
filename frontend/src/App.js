@@ -3,8 +3,10 @@ import Home from './pages/Home';
 
 import {
   BrowserRouter as Router,
+  Switch,
+  Route,
   Routes,
-  Route
+  Link
 } from "react-router-dom";
 
 import './App.css';
@@ -14,11 +16,11 @@ export class App extends Component {
     return (
       <Router>
         <div>
-
           <Routes>
-            <Route exact path="/">
-              <Home />
-            </Route>
+
+            <Route path="/" element={<Home />} />
+
+
           </Routes>
 
         </div>

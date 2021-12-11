@@ -17,7 +17,7 @@ export class App extends Component {
         <div>
           <Sidebar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
           </Routes>
 
         </div>
